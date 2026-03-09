@@ -1,0 +1,50 @@
+.border-calculator{
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(7, 50px);
+    gap: 5px;
+    border: 2px solid black;
+    width: fit-content;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.cell{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border:2px solid black;
+    background-color:#FF8B5A;
+    border-radius:35%;
+    cursor:pointer;
+}
+
+#screen-display{
+    grid-column: span 4;
+    grid-row: span 2;
+    border-radius: 5%;
+    background-color: white;
+    font-size: large;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+h1{
+    color: #F67D31;
+}
+
+#equal{
+    grid-column: span 2;
+    border-radius: 10%;
+}
+
+#screen-display{
+    font-size: large;
+}

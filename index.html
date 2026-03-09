@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Darshana Gopal</title>
-</head>
-<body>
-  <h1>Machine Leanring Engineer @ UCL</h1>
-  <p>AWS</p>
-</body>
+<html lang="en">
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <div class="border-calculator" id="black-outline-border">
+            <div class="cell" id="screen-display"></div>
+            <button class="cell" id="AC">AC</button>
+            <button class="cell" id="delete">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backspace-fill" viewBox="0 0 16 16">
+                                                <path d="M15.683 3a2 2 0 0 0-2-2h-7.08a2 2 0 0 0-1.519.698L.241 7.35a1 1 0 0 0 0 1.302l4.843 5.65A2 2 0 0 0 6.603 15h7.08a2 2 0 0 0 2-2zM5.829 5.854a.5.5 0 1 1 .707-.708l2.147 2.147 2.146-2.147a.5.5 0 1 1 .707.708L9.39 8l2.146 2.146a.5.5 0 0 1-.707.708L8.683 8.707l-2.147 2.147a.5.5 0 0 1-.707-.708L7.976 8z"/>
+                                            </svg>
+                                        </button>
+            <button class="cell" id="percentage">%</button>
+            <button class="cell" id="plus">+</button>
+            <button class="cell" id="seven">7</button>
+            <button class="cell" id="eight">8</button>
+            <button class="cell" id="nine">9</button>
+            <button class="cell" id="multiply">*</button>
+            <button class="cell" id="four">4</button>
+            <button class="cell" id="five">5</button>
+            <button class="cell" id="six">6</button>
+            <button class="cell" id="minus">-</button>
+            <button class="cell" id="three">3</button>
+            <button class="cell" id="two">2</button>
+            <button class="cell" id="one">1</button>
+            <button class="cell" id="devide">/</button>
+            <button class="cell" id="zero">0</button>
+            <button class="cell" id="dot">.</button>
+            <button class="cell" id="equal">=</button>
+        </div>
+    <script src="./script.js"></script>
+    </body>
 </html>
